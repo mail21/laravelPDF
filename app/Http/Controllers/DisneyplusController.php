@@ -22,7 +22,7 @@ class DisneyplusController extends Controller
         ]);
         Disneyplus::create($validatedData);
    
-        return redirect('/disneyplus')->with('success', 'Disney Plus Show is successfully saved');
+        return redirect('disneyplus')->with('success', 'Disney Plus Show is successfully saved');
     }
 
     public function index()

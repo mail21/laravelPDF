@@ -14,16 +14,21 @@
         
         }
         .bikin{
-             color: red;
              position: absolute;
              /* font-size: 32px; */
              font-size: 30pt;
+             /* @if(false)         
+              color: red;
+             @else
+              color: blue;
+             @endif */
+
+             /* small */
              /* y */
-             /* top: {{(292 * 25.4) / 72}};  */
-             top : {{230 - 30}};
+             top : {{347 - 30}};
              /* x */
-             /* left : {{(422 * 25.4) / 72}}; */
-             left: {{521 - 65}};
+             left: {{566  - 85}};
+             
         }
 
         .barcode{
@@ -59,7 +64,7 @@
       </tr>
       </tbody>
     </table>
-    <span class="bikin">John Smith</span>
+    <span class="bikin">John Smith John</span>
     <!-- <img class="barcode" src="data:image/png;base64,{{DNS1D::getBarcodePNG('1710114023640000', 'C39',1,35,array(0,0,0), true)}}" alt="barcode" /> -->
   </body>
 
